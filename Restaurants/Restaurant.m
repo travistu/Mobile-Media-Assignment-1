@@ -20,13 +20,13 @@
     float tipRate = .2;
     
     //These variables will be replaced by calculated amounts based on the above
-    float dinnerPrice = 0;
-    float tip = dinnerPrice*tipRate;
-    float taxes = 0;
-    int numberOfAppetizersOrdered = 0;
-    int numberOfDessertsOrdered = 0;
+    float dinnerPrice = entreePrice* numberOfGuests+ appetizerPrice* numberOfGuests/ 2+ dessertPrice* numberOfGuests+ winePrice* numberOfGuests/ 4;
+    float tip = dinnerPrice* .2;
+    float taxes = dinnerPrice* .0875;
+    int numberOfAppetizersOrdered = numberOfGuests/ 2;
+    int numberOfDessertsOrdered = numberOfGuests;
     int numberOfEntreesOrdered = numberOfGuests;
-    int numberOfWineBottlesOrdered = 0;
+    int numberOfWineBottlesOrdered = numberOfGuests/ 4;
     
 
     float numberOfWineBottleOrdered = ceil((float)numberOfGuests/ 4.0);
