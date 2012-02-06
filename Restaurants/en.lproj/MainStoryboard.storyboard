@@ -74,9 +74,18 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tips" lineBreakMode="tailTruncation" minimumFontSize="13" id="lkP-mz-MX8">
-                                <rect key="frame" x="20" y="6" width="257" height="158"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" lineBreakMode="tailTruncation" numberOfLines="10" minimumFontSize="13" id="lkP-mz-MX8">
+                                <rect key="frame" x="20" y="-30" width="211" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Price Range: $$$$ 
+Parking: Street
+Attire: Dressy
+Good for Groups: Yes
+Good for Kids: No
+Takes Reservations: Yes
+Delivery: No
+Take-out: No
+Waiter Service: Yes</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.084038194415657297" blue="0.048661488923037788" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
