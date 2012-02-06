@@ -17,6 +17,7 @@
 		0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */; };
 		0EE5A6EA14BEB491006BB5E1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */; };
 		0EE5A6ED14BEB491006BB5E1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */; };
+		7BDABFF214DF349D00BC7430 /* morimoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BDABFF114DF349D00BC7430 /* morimoto.jpg */; };
 		7BF53B4F14D7726C00146338 /* 300px-Restaurant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BF53B4E14D7726C00146338 /* 300px-Restaurant.jpg */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		0EE5A6EB14BEB491006BB5E1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7BDABFF114DF349D00BC7430 /* morimoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morimoto.jpg; sourceTree = "<group>"; };
 		7BF53B4E14D7726C00146338 /* 300px-Restaurant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "300px-Restaurant.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				7BF53B4E14D7726C00146338 /* 300px-Restaurant.jpg */,
+				7BDABFF114DF349D00BC7430 /* morimoto.jpg */,
 				0E02F6BB14CD10E300C3EAE8 /* Restaurant.h */,
 				0E02F6BC14CD10E300C3EAE8 /* Restaurant.m */,
 				0EE5A6E214BEB490006BB5E1 /* AppDelegate.h */,
@@ -164,6 +167,7 @@
 				0EE5A6DE14BEB490006BB5E1 /* InfoPlist.strings in Resources */,
 				0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */,
 				7BF53B4F14D7726C00146338 /* 300px-Restaurant.jpg in Resources */,
+				7BDABFF214DF349D00BC7430 /* morimoto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
